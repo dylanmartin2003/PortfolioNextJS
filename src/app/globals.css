@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pres{
+    width: 60rem;
+}
+
+.section-home{
+    margin-top: auto;
+}
