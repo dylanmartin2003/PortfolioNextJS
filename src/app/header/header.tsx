@@ -19,13 +19,13 @@ export default function header() {
                 <span className="pl-3 text-base">MARTIN Dylan</span>
             </a>
             <nav className="flex gap-4 lg:gap-8">
-                <a className="text-sm sm:text-base font-medium hover:text-sky-900" href="/competences">
+                <a className="text-sm sm:text-base font-medium hover:text-sky-900" href="/PortfolioNextJS/competences">
                     Compétences
                 </a>
-                <a className="text-sm md:text-base font-medium hover:text-sky-900" href="/projets">
+                <a className="text-sm md:text-base font-medium hover:text-sky-900" href="/PortfolioNextJS/projets">
                     Projets
                 </a>
-                <a className="text-sm md:text-base font-medium hover:text-sky-900" href="/contacts">
+                <a className="text-sm md:text-base font-medium hover:text-sky-900" href="/PortfolioNextJS/contacts">
                     Contact
                 </a>
             </nav>
