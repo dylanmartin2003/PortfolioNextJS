@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Header from "@/app/header/header";
 import React from "react";
 
@@ -19,6 +18,21 @@ const Projets = () => {
             description: 'Description du projet 3.',
             link: 'https://example.com/project3',
         },
+        {
+            title: 'Projet 4',
+            description: 'Description du projet 4.',
+            link: 'https://example.com/project3',
+        },
+        {
+            title: 'Projet 5',
+            description: 'Description du projet 5.',
+            link: 'https://example.com/project3',
+        },
+        {
+            title: 'Projet 6',
+            description: 'Description du projet 6.',
+            link: 'https://example.com/project3',
+        },
     ];
 
     return (
@@ -30,7 +44,7 @@ const Projets = () => {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {projects.map((project, index) => (
-                            <div key={index} className="bg-gray-100 p-6 rounded-md shadow-md">
+                            <div key={index} className="p-6 rounded-md shadow-md bg-slate-200">
                                 <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                                 <p className="text-gray-600 mb-4">{project.description}</p>
                                 <a
