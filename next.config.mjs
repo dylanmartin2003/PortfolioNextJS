@@ -1,6 +1,7 @@
-/**@type {import('next').NextConfig}*/
+/*@type {import('next').NextConfig}*/
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 const assetPrefix = process.env.NEXT_PUBLIC_ASSET_PREFIX;
 
 const config = {
@@ -10,7 +11,7 @@ const config = {
     reactStrictMode: true,
     assetPrefix,
     basePath,
-    images: {
+    images:{
         unoptimized: true,
     }
 };
