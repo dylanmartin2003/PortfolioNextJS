@@ -1,6 +1,9 @@
+import Head from "next/head";
+import React from "react";
+
 export default function header() {
     return (
-        <header className="flex items-center justify-between px-4 py-6 md:px-8 lg:px-12 bg-cyan-500">
+        <header className="flex items-center justify-between px-4 py-6 md:px-8 lg:px-12 bg-cyan-500 print-header">
             <a className="flex items-center" href="/PortfolioNextJS">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -19,7 +22,7 @@ export default function header() {
                 <span className="pl-3 text-base">MARTIN Dylan</span>
             </a>
             <nav className="flex gap-4 lg:gap-8">
-                <a className="text-sm sm:text-base font-medium hover:text-sky-900" href="/PortfolioNextJS/competences">
+                <a className="text-sm sm:text-base font-medium relative group" href="/PortfolioNextJS/competences">
                     Compétences
                 </a>
                 <a className="text-sm md:text-base font-medium hover:text-sky-900" href="/PortfolioNextJS/projets">
